@@ -7,7 +7,7 @@
 //Takes in an argument when you call this program
 int main() {
     string musicFile = "proj3_music.txt";
-    cout << "Welcome to Music Player" << endl;
+    cout << "Welcome to Jolomi's Music Player" << endl;
     
     MusicPlayer* myMusic = new MusicPlayer(); //Dynamically allocates a new music player
     myMusic->LoadCatalog(musicFile); //Loads the catalog
